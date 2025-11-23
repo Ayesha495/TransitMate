@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+
+# Django
+db.sqlite3
+*/migrations/*
+!/recommend/migrations/__init__.py
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Node / React
+node_modules/
+dist/
+build/
+.vite/
+.parcel/
+
+# Dependency locks (optional)
+# yarn.lock
+# package-lock.json
+
+# VScode
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Model Files
+*.pkl
+*.h5
+*.joblib
+recommender-meta.json
+
+# Logs
+*.log
+
+# Word temporary lock files
+~$*.docx
