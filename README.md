@@ -1,4 +1,4 @@
-# 🚀 TransitMate - AI-Enhanced Transportation Recommendation System
+# TransitMate - AI-Enhanced Transportation Recommendation System
 
 > Intelligent route planning powered by Machine Learning and real-time routing data
 
@@ -8,23 +8,23 @@
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Tests](https://img.shields.io/badge/Tests-30%20passing-success.svg)](tests/)
 
-## 📖 About
+## About
 
 TransitMate is an intelligent transportation recommendation platform that helps travelers in Pakistan find the best routes between cities. Using **Machine Learning** and **OpenRouteService API**, it provides personalized recommendations for Bus, Metro, RideShare, and Taxi options based on time, cost, and user preferences.
 
-### 🎯 Key Features
+### Key Features
 
-- 🤖 **ML-Powered Recommendations** - Random Forest model learns from user feedback
-- 🗺️ **Real-Time Routing** - Live route data from OpenRouteService API
-- 💰 **Cost Estimation** - Accurate pricing in Pakistani Rupees (PKR)
-- 📍 **Interactive Maps** - Leaflet-based visualization with route polylines
-- ⭐ **Feedback Loop** - Continuous learning from user ratings
-- 🎨 **Modern UI** - Responsive React interface with Tailwind CSS
-- 🔄 **Model Retraining** - Background training on accumulated feedback
+- **ML-Powered Recommendations** - Random Forest model learns from user feedback
+- **Real-Time Routing** - Live route data from OpenRouteService API
+- **Cost Estimation** - Accurate pricing in Pakistani Rupees (PKR)
+- **Interactive Maps** - Leaflet-based visualization with route polylines
+- **Feedback Loop** - Continuous learning from user ratings
+- **Modern UI** - Responsive React interface with Tailwind CSS
+- **Model Retraining** - Background training on accumulated feedback
 
 ---
 
-## 🖼️ Screenshots
+## Screenshots
 
 ### Search Interface
 <img width="554" height="258" alt="image" src="https://github.com/user-attachments/assets/281235fc-596d-4eda-b639-e904a10fc716" />
@@ -39,7 +39,7 @@ TransitMate is an intelligent transportation recommendation platform that helps 
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 ┌─────────────────┐
@@ -80,7 +80,7 @@ TransitMate is an intelligent transportation recommendation platform that helps 
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -146,7 +146,7 @@ Frontend runs at `http://localhost:5173`
 
 ---
 
-## 📚 Usage
+## Usage
 
 ### Basic Trip Search
 
@@ -169,16 +169,9 @@ Frontend runs at `http://localhost:5173`
 3. Optionally add comment
 4. Submit to help improve ML model
 
-### Retrain ML Model
-
-```bash
-# After collecting 20+ feedback samples
-curl -X POST http://localhost:8000/api/retrain/
-```
-
 ---
 
-## 🧪 Testing
+## Testing
 
 Run comprehensive test suite:
 
@@ -199,7 +192,7 @@ Tests include:
 
 ---
 
-## 📡 API Documentation
+## API Documentation
 
 ### Base URL
 ```
@@ -254,7 +247,7 @@ POST /api/retrain/
 
 ---
 
-## 🤖 Machine Learning
+## Machine Learning
 
 ### Model Architecture
 
@@ -295,7 +288,7 @@ Model saved to `models/recommender.pkl`
 
 ---
 
-## 📊 Project Structure
+## Project Structure
 
 ```
 transitmate/
@@ -324,7 +317,7 @@ transitmate/
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Please follow these steps:
 
@@ -343,13 +336,13 @@ Contributions are welcome! Please follow these steps:
 
 ---
 
-## 📝 License
+## License
 
 This project is licensed under the MIT License - see [LICENSE](LICENSE) file for details.
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Ayesha**
 - GitHub: [@Ayesha495](https://github.com/Ayesha495)
@@ -359,7 +352,7 @@ This project is licensed under the MIT License - see [LICENSE](LICENSE) file for
 
 ---
 
-## 📈 Project Stats
+##  Project Stats
 
 - **Lines of Code:** ~3,000+ (Python + JavaScript)
 - **Test Coverage:** 85%+
@@ -370,7 +363,7 @@ This project is licensed under the MIT License - see [LICENSE](LICENSE) file for
 
 ---
 
-## 🌟 Star History
+## Star History
 
 If you find this project useful, please consider giving it a ⭐!
 
